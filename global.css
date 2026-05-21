@@ -1,11 +1,12 @@
+/* ===== DESIGN TOKENS ===== */
 :root {
-  --color-sidebar:    #28304b;
-  --color-bg:         #fafaf7;
-  --color-text:       #27304b;
-  --color-text-soft:  #59637d;
-  --color-on-dark:    #fffcf0;
-  --color-white:      #ffffff;
-  --color-black:      #000000;
+  --color-sidebar:    #27304B;
+  --color-bg:         #FAFAF7;
+  --color-text:       #27304B;
+  --color-text-soft:  #27304B;
+  --color-on-dark:    #FAFAF7;
+  --color-white:      #FAFAF7;
+  --color-black:      #27304B;
 
   --fs-xs:   0.875rem;
   --fs-sm:   1rem;
@@ -30,6 +31,7 @@
   --transition: 0.18s ease;
 }
 
+/* ===== RESET ===== */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
