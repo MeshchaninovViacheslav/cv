@@ -172,6 +172,33 @@
 .entry-year { color: var(--color-text-soft); }
 .entry-body { margin-top: 0.25rem; }
 
+.content-section .entry {
+  position: relative;
+  padding-left: 2rem;
+}
+.content-section .entry::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border: 2px solid var(--color-text);
+  border-radius: 50%;
+  background: var(--color-bg);
+  z-index: 1;
+}
+.content-section .entry::after {
+  content: '';
+  position: absolute;
+  left: calc(0.425rem - 1px);
+  top: 1.4rem;
+  bottom: calc(-1 * var(--space-6));
+  width: 2px;
+  background: var(--color-text);
+  z-index: 0;
+}
+
 .badges {
   display: flex;
   flex-wrap: wrap;
