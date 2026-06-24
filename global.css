@@ -8,13 +8,13 @@
   --color-white:      #FAFAF7;
   --color-black:      #27304B;
 
-  --fs-xs:   0.875rem;
-  --fs-sm:   1rem;
-  --fs-base: 1.125rem;
-  --fs-md:   1.25rem;
-  --fs-lg:   1.5rem;
-  --fs-xl:   1.875rem;
-  --fs-2xl:  3rem;
+  --fs-xs:   0.75rem;   /* 12px */
+  --fs-sm:   0.875rem;  /* 14px */
+  --fs-base: 1rem;      /* 16px */
+  --fs-md:   1rem;      /* 16px */
+  --fs-lg:   1.25rem;   /* 20px */
+  --fs-xl:   1.75rem;   /* 28px */
+  --fs-2xl:  2.5rem;    /* 40px */
 
   --space-1: 0.25rem;
   --space-2: 0.5rem;
@@ -25,7 +25,7 @@
   --space-7: 2.5rem;
   --space-8: 3rem;
 
-  --sidebar-width: 22rem;
+  --sidebar-width: 18rem;
   --content-max:   60rem;
   --radius: 5px;
   --transition: 0.18s ease;
@@ -40,7 +40,7 @@ body {
   color: var(--color-text);
   font-family: 'Latin Modern Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
   font-size: var(--fs-base);
-  line-height: 1.55;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
