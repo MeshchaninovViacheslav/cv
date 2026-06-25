@@ -185,7 +185,7 @@
   content: '';
   position: absolute;
   left: 0;
-  top: 0.55rem;
+  top: 0.3rem;
   width: 0.85rem;
   height: 0.85rem;
   border: 2px solid var(--color-text);
@@ -197,12 +197,14 @@
   content: '';
   position: absolute;
   left: calc(0.425rem - 1px);
-  top: 1.4rem;
+  top: 1.15rem;
   bottom: calc(-1 * var(--space-6));
   width: 2px;
   background: var(--color-text);
   z-index: 0;
 }
+#publications .entry::before { top: 0.05rem; }
+#publications .entry::after  { top: 0.9rem;  }
 
 .badges {
   display: flex;
